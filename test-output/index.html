@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Pwot_RegressionSuite">
+              <span class="suite-name border-skipped">Pwot_RegressionSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Pwot_RegressionSuite">
+                    <span>C:\Users\IBM_ADMIN\workspace224\PwotRegressionSuite\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Pwot_RegressionSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Pwot_RegressionSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Pwot_RegressionSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Pwot_RegressionSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Pwot_RegressionSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Pwot_RegressionSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,  16 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Pwot_RegressionSuite" class="hide-methods skipped suite-Pwot_RegressionSuite"> (hide)</a> <!-- hide-methods skipped suite-Pwot_RegressionSuite -->
+                      <a href="#" panel-name="suite-Pwot_RegressionSuite" class="show-methods skipped suite-Pwot_RegressionSuite"> (show)</a> <!-- show-methods skipped suite-Pwot_RegressionSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Pwot_RegressionSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestAeUser" hash-for-method="AE_ManagerInsertFunction">AE_ManagerInsertFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestAeUser" hash-for-method="CopyFunctionality">CopyFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestTcUser" hash-for-method="CopyFunctionality">CopyFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestTcUser" hash-for-method="ModifyFuctionality">ModifyFuctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestAeUser" hash-for-method="ModifyFuctionality">ModifyFuctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestAeUser" hash-for-method="NewButtonFunctionality">NewButtonFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestTcUser" hash-for-method="NewButtonFunctionality">NewButtonFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestTcUser" hash-for-method="TC__ManagerInsertFunction">TC__ManagerInsertFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestAeUser" hash-for-method="TestUserSelection">TestUserSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestTcUser" hash-for-method="TestUserSelection">TestUserSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestTcUser" hash-for-method="ValidateLogo">ValidateLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestAeUser" hash-for-method="ValidateLogo">ValidateLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestAeUser" hash-for-method="ValidateMenuDisplayedForAEManager">ValidateMenuDisplayedForAEManager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestTcUser" hash-for-method="ValidateMenuDisplayedForAEManager">ValidateMenuDisplayedForAEManager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestTcUser" hash-for-method="ValidateMessageDisplayed">ValidateMessageDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Pwot_RegressionSuite" title="com.pwot.qa.iteration1.TestAeUser" hash-for-method="ValidateMessageDisplayed">ValidateMessageDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Pwot_RegressionSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Pwot_RegressionSuite" class="panel Pwot_RegressionSuite">
+          <div class="suite-Pwot_RegressionSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.pwot.qa.iteration1.TestTcUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CopyFunctionality">
+                  </a> <!-- CopyFunctionality -->
+                  <span class="method-name">CopyFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ModifyFuctionality">
+                  </a> <!-- ModifyFuctionality -->
+                  <span class="method-name">ModifyFuctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewButtonFunctionality">
+                  </a> <!-- NewButtonFunctionality -->
+                  <span class="method-name">NewButtonFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC__ManagerInsertFunction">
+                  </a> <!-- TC__ManagerInsertFunction -->
+                  <span class="method-name">TC__ManagerInsertFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestUserSelection">
+                  </a> <!-- TestUserSelection -->
+                  <span class="method-name">TestUserSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLogo">
+                  </a> <!-- ValidateLogo -->
+                  <span class="method-name">ValidateLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateMenuDisplayedForAEManager">
+                  </a> <!-- ValidateMenuDisplayedForAEManager -->
+                  <span class="method-name">ValidateMenuDisplayedForAEManager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateMessageDisplayed">
+                  </a> <!-- ValidateMessageDisplayed -->
+                  <span class="method-name">ValidateMessageDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Pwot_RegressionSuite-class-skipped -->
+          <div class="suite-Pwot_RegressionSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.pwot.qa.iteration1.TestAeUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AE_ManagerInsertFunction">
+                  </a> <!-- AE_ManagerInsertFunction -->
+                  <span class="method-name">AE_ManagerInsertFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CopyFunctionality">
+                  </a> <!-- CopyFunctionality -->
+                  <span class="method-name">CopyFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ModifyFuctionality">
+                  </a> <!-- ModifyFuctionality -->
+                  <span class="method-name">ModifyFuctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewButtonFunctionality">
+                  </a> <!-- NewButtonFunctionality -->
+                  <span class="method-name">NewButtonFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestUserSelection">
+                  </a> <!-- TestUserSelection -->
+                  <span class="method-name">TestUserSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLogo">
+                  </a> <!-- ValidateLogo -->
+                  <span class="method-name">ValidateLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateMenuDisplayedForAEManager">
+                  </a> <!-- ValidateMenuDisplayedForAEManager -->
+                  <span class="method-name">ValidateMenuDisplayedForAEManager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateMessageDisplayed">
+                  </a> <!-- ValidateMessageDisplayed -->
+                  <span class="method-name">ValidateMessageDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Pwot_RegressionSuite-class-skipped -->
+        </div> <!-- panel Pwot_RegressionSuite -->
+        <div panel-name="test-xml-Pwot_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\IBM_ADMIN\workspace224\PwotRegressionSuite\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Pwot_RegressionSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.listener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pwot.qa.iteration1.TestAeUser&quot;/&gt;
+      &lt;class name=&quot;com.pwot.qa.iteration1.TestTcUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Pwot_RegressionSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Pwot_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Pwot_RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Pwot_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Pwot_RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Pwot_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Pwot_RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Pwot_RegressionSuite');
+function tableData_Pwot_RegressionSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidateMessageDisplayed')
+data.setCell(0, 2, 'com.pwot.qa.iteration1.TestTcUser')
+data.setCell(0, 3, 3);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC__ManagerInsertFunction')
+data.setCell(1, 2, 'com.pwot.qa.iteration1.TestTcUser')
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ModifyFuctionality')
+data.setCell(2, 2, 'com.pwot.qa.iteration1.TestTcUser')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ValidateLogo')
+data.setCell(3, 2, 'com.pwot.qa.iteration1.TestTcUser')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestUserSelection')
+data.setCell(4, 2, 'com.pwot.qa.iteration1.TestTcUser')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateMenuDisplayedForAEManager')
+data.setCell(5, 2, 'com.pwot.qa.iteration1.TestTcUser')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CopyFunctionality')
+data.setCell(6, 2, 'com.pwot.qa.iteration1.TestTcUser')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CopyFunctionality')
+data.setCell(7, 2, 'com.pwot.qa.iteration1.TestAeUser')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestUserSelection')
+data.setCell(8, 2, 'com.pwot.qa.iteration1.TestAeUser')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'AE_ManagerInsertFunction')
+data.setCell(9, 2, 'com.pwot.qa.iteration1.TestAeUser')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ValidateLogo')
+data.setCell(10, 2, 'com.pwot.qa.iteration1.TestAeUser')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ModifyFuctionality')
+data.setCell(11, 2, 'com.pwot.qa.iteration1.TestAeUser')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ValidateMenuDisplayedForAEManager')
+data.setCell(12, 2, 'com.pwot.qa.iteration1.TestAeUser')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ValidateMessageDisplayed')
+data.setCell(13, 2, 'com.pwot.qa.iteration1.TestAeUser')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'NewButtonFunctionality')
+data.setCell(14, 2, 'com.pwot.qa.iteration1.TestAeUser')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'NewButtonFunctionality')
+data.setCell(15, 2, 'com.pwot.qa.iteration1.TestTcUser')
+data.setCell(15, 3, 1);
+window.suiteTableData['Pwot_RegressionSuite']= { tableData: data, tableDiv: 'times-div-Pwot_RegressionSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 ms</span>
+              <div id="times-div-Pwot_RegressionSuite">
+              </div> <!-- times-div-Pwot_RegressionSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Pwot_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Pwot_RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Pwot_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Pwot_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pwot.qa.iteration1.TestAeUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginToPwot</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestUserSelection</span>
+                <span class="method-start">9729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateLogo</span>
+                <span class="method-start">9743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateMessageDisplayed</span>
+                <span class="method-start">9745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateMenuDisplayedForAEManager</span>
+                <span class="method-start">9747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AE_ManagerInsertFunction</span>
+                <span class="method-start">9749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ModifyFuctionality</span>
+                <span class="method-start">9752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CopyFunctionality</span>
+                <span class="method-start">9754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NewButtonFunctionality</span>
+                <span class="method-start">9756 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pwot.qa.iteration1.TestTcUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginToPwot</span>
+                <span class="method-start">9762 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestUserSelection</span>
+                <span class="method-start">14634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateLogo</span>
+                <span class="method-start">14639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateMessageDisplayed</span>
+                <span class="method-start">14644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateMenuDisplayedForAEManager</span>
+                <span class="method-start">14650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC__ManagerInsertFunction</span>
+                <span class="method-start">14660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ModifyFuctionality</span>
+                <span class="method-start">14665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CopyFunctionality</span>
+                <span class="method-start">14670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NewButtonFunctionality</span>
+                <span class="method-start">14673 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

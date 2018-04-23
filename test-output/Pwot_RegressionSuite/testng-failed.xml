@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pwot_RegressionSuite]">
+  <listeners>
+    <listener class-name="com.qa.listener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.pwot.qa.iteration1.TestTcUser">
+        <methods>
+          <include name="ValidateLogo"/>
+          <include name="LoginToPwot"/>
+          <include name="ModifyFuctionality"/>
+          <include name="ValidateMessageDisplayed"/>
+          <include name="TestUserSelection"/>
+          <include name="ValidateMenuDisplayedForAEManager"/>
+          <include name="CopyFunctionality"/>
+          <include name="TC__ManagerInsertFunction"/>
+          <include name="NewButtonFunctionality"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestTcUser -->
+      <class name="com.pwot.qa.iteration1.TestAeUser">
+        <methods>
+          <include name="ModifyFuctionality"/>
+          <include name="CopyFunctionality"/>
+          <include name="AE_ManagerInsertFunction"/>
+          <include name="NewButtonFunctionality"/>
+          <include name="TestUserSelection"/>
+          <include name="ValidateMessageDisplayed"/>
+          <include name="ValidateLogo"/>
+          <include name="ValidateMenuDisplayedForAEManager"/>
+          <include name="LoginToPwot"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestAeUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Pwot_RegressionSuite] -->

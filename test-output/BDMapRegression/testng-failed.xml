@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BDMapRegression]">
+  <listeners>
+    <listener class-name="com.qa.listener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.pwot.qa.iteration1.TestSdmUser">
+        <methods>
+          <include name="ModifyFuctionality"/>
+          <include name="LoginToPwot"/>
+          <include name="CopyFunctionality"/>
+          <include name="NewButtonFunctionality"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestSdmUser -->
+      <class name="com.pwot.qa.iteration1.TestAeUser">
+        <methods>
+          <include name="LoginToPwot"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestAeUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [BDMapRegression] -->
