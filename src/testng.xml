@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Pwot_RegressionSuite" verbose="1" >
+  
+  <listeners>
+<listener class-name="com.qa.listener.ExtentReporterNG" />
+<listener class-name="com.pwot.qa.iteration1.MyTransformer"/>
+</listeners>
+  
+<test name="Test" preserve-order="true">
+	<classes>
+	  <class name="com.pwot.qa.iteration1.TestAdminUser"/>
+      <class name="com.pwot.qa.iteration1.TestAeUser"/>
+      <class name="com.pwot.qa.iteration1.TestTcUser"/>
+      <class name="com.pwot.qa.iteration1.TestSdmUser"/>
+      <class name="com.pwot.qa.iteration1.TestProvisioningUser"/>
+      <class name="com.pwot.qa.iteration1.TestOfcUser"/>
+      <class name="com.pwot.qa.iteration1.TestCustomerUser"/>
+      <class name="com.pwot.qa.iteration1.TestOtherUser"/>
+    </classes>
+
+</test>
+ 
+</suite>
+      

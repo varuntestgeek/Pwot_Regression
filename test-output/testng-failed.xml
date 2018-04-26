@@ -3,35 +3,68 @@
 <suite name="Failed suite [Pwot_RegressionSuite]">
   <listeners>
     <listener class-name="com.qa.listener.ExtentReporterNG"/>
+    <listener class-name="com.pwot.qa.iteration1.MyTransformer"/>
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.pwot.qa.iteration1.TestTcUser">
+      <class name="com.pwot.qa.iteration1.TestOfcUser">
         <methods>
-          <include name="ValidateLogo"/>
+          <include name="aftertest"/>
           <include name="LoginToPwot"/>
-          <include name="ModifyFuctionality"/>
-          <include name="ValidateMessageDisplayed"/>
-          <include name="TestUserSelection"/>
-          <include name="ValidateMenuDisplayedForAEManager"/>
-          <include name="CopyFunctionality"/>
-          <include name="TC__ManagerInsertFunction"/>
-          <include name="NewButtonFunctionality"/>
         </methods>
-      </class> <!-- com.pwot.qa.iteration1.TestTcUser -->
+      </class> <!-- com.pwot.qa.iteration1.TestOfcUser -->
       <class name="com.pwot.qa.iteration1.TestAeUser">
         <methods>
-          <include name="ModifyFuctionality"/>
-          <include name="CopyFunctionality"/>
-          <include name="AE_ManagerInsertFunction"/>
-          <include name="NewButtonFunctionality"/>
-          <include name="TestUserSelection"/>
-          <include name="ValidateMessageDisplayed"/>
-          <include name="ValidateLogo"/>
-          <include name="ValidateMenuDisplayedForAEManager"/>
+          <include name="aftertest"/>
           <include name="LoginToPwot"/>
         </methods>
       </class> <!-- com.pwot.qa.iteration1.TestAeUser -->
+      <class name="com.pwot.qa.iteration1.TestOtherUser">
+        <methods>
+          <include name="aftertest"/>
+          <include name="LoginToPwot"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestOtherUser -->
+      <class name="com.pwot.qa.iteration1.TestSdmUser">
+        <methods>
+          <include name="LoginToPwot"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestSdmUser -->
+      <class name="com.pwot.qa.iteration1.TestCustomerUser">
+        <methods>
+          <include name="LoginToPwot"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestCustomerUser -->
+      <class name="com.pwot.qa.iteration1.TestAdminUser">
+        <methods>
+          <include name="ModifyFuctionalityForAE"/>
+          <include name="ValidateLogoForAE"/>
+          <include name="CopyFunctionalityForAE"/>
+          <include name="ValidateMessageDisplayedForAE"/>
+          <include name="OutBoundMartrixForAE"/>
+          <include name="UpdateAccount"/>
+          <include name="TestUserSelectionForAE"/>
+          <include name="ValidateMenuDisplayedForAEManager"/>
+          <include name="LoginToPwot"/>
+          <include name="LoggedAsInfo"/>
+          <include name="NewButtonFunctionalityForAE"/>
+          <include name="AE_ManagerInsertFunctionForAE"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestAdminUser -->
+      <class name="com.pwot.qa.iteration1.TestTcUser">
+        <methods>
+          <include name="LoginToPwot"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestTcUser -->
+      <class name="com.pwot.qa.iteration1.TestProvisioningUser">
+        <methods>
+          <include name="LoginToPwot"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- com.pwot.qa.iteration1.TestProvisioningUser -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Pwot_RegressionSuite] -->

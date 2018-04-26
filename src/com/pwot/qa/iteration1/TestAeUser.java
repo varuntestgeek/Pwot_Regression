@@ -29,20 +29,20 @@ public class TestAeUser extends CommonMethods {
   
      @Test(priority = 1 )
      
-     public static void TestUserSelection()
+     public static void TestUserSelectionForAE()
      {
     		CommonMethods.SelectUser("AEuser1");
      }
     
      @Test(priority=2)
-     public static void ValidateLogo()
+     public static void ValidateLogoForAE()
      {
     		CommonMethods.ValidateATTLogo();
      }
      
      @Test(priority = 3)
      
-     public static void ValidateMessageDisplayed()
+     public static void ValidateMessageDisplayedForAE()
      {
     	 CommonMethods.ValidateMessage("AEuser1");
      }
@@ -53,7 +53,7 @@ public class TestAeUser extends CommonMethods {
      }
      @Test(priority = 5 )
 	
-     public static void AE_ManagerInsertFunction() throws InvalidFormatException, IOException
+     public static void AE_ManagerInsertFunctionForAE() throws InvalidFormatException, IOException
      {
 		CommonMethods.ClickOnManageLink("AE");
 		
@@ -63,26 +63,41 @@ public class TestAeUser extends CommonMethods {
 		
 	}
      @Test(priority = 6)
-     public static void ModifyFuctionality()
+     public static void ModifyFuctionalityForAE() throws InterruptedException
      {
     	 ValidateModifyFunctionality("AE Manager");
      }
 	
 	@Test(priority = 7)
 	
-	public static void CopyFunctionality() throws InvalidFormatException, IOException, InterruptedException
+	public static void CopyFunctionalityForAE() throws InvalidFormatException, IOException, InterruptedException
 	{
 		ValidateCopyFunctionality("AE Manager");
 	}
 
 	@Test(priority= 8)
-	public static void NewButtonFunctionality() throws IOException, InterruptedException
+	public static void NewButtonFunctionalityForAE() throws IOException, InterruptedException
 	{
 		CommonMethods.ValidateNewFunctionality("AE Manager");
+	}
+	@Test(priority =9)
+	public static void OutBoundMartrixForAE()
+	{
+		CommonMethods.ValidateManageOMatrixInsert();
+	}
+	@Test(priority= 10)
+	public static void UpdateAccount() throws InterruptedException
+	{
+		CommonMethods.UpdateLink("AE");
+	}
+	@Test(priority=11)
+	public static void LoggedAsInfo()
+	{
+		CommonMethods.loggedAs("AE Manager");
 	}
 	@AfterClass
 	public static void aftertest()
 	{
-	CommonMethods.aftcls();
+	CommonMethods.close();
 	}
 }

@@ -1,149 +1,409 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="16" failed="0" total="16" passed="0">
+<testng-results skipped="11" failed="0" total="87" passed="76">
   <reporter-output>
   </reporter-output>
-  <suite name="Pwot_RegressionSuite" duration-ms="14689" started-at="2018-04-23T07:48:31Z" finished-at="2018-04-23T07:48:45Z">
+  <suite name="Pwot_RegressionSuite" duration-ms="1443924" started-at="2018-04-26T17:54:41Z" finished-at="2018-04-26T18:18:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14689" started-at="2018-04-23T07:48:31Z" finished-at="2018-04-23T07:48:45Z">
+    <test name="Test" duration-ms="1443924" started-at="2018-04-26T17:54:41Z" finished-at="2018-04-26T18:18:45Z">
       <class name="com.pwot.qa.iteration1.TestAeUser">
-        <test-method status="FAIL" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="LoginToPwot" is-config="true" duration-ms="0" started-at="2018-04-23T13:18:31Z" finished-at="2018-04-23T13:18:31Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"link text","selector":"ALS Prime Product"}
-Command duration or timeout: 113 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'arifasha', ip: '9.126.50.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d54fdb43-19d4-4023-bfb6-966e305d22d7
-*** Element info: {Using=link text, value=ALS Prime Product}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"ALS Prime Product"}
-Command duration or timeout: 113 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'arifasha', ip: '9.126.50.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d54fdb43-19d4-4023-bfb6-966e305d22d7
-*** Element info: {Using=link text, value=ALS Prime Product}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.pwot.qa.iteration1.CommonMethods.Login(CommonMethods.java:58)
-	at com.pwot.qa.iteration1.TestAeUser.LoginToPwot(TestAeUser.java:27)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"ALS Prime Product"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'arifasha', ip: '9.126.50.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous8958628668287072794webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous8958628668287072794webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous8958628668287072794webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous8958628668287072794webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous8958628668287072794webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="LoginToPwot" is-config="true" duration-ms="20967" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToPwot -->
-        <test-method status="SKIP" signature="TestUserSelection()[pri:1, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="TestUserSelection" duration-ms="1" started-at="2018-04-23T13:18:40Z" finished-at="2018-04-23T13:18:40Z">
+        <test-method status="PASS" signature="TestUserSelectionForAE()[pri:1, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="TestUserSelectionForAE" duration-ms="10296" started-at="2018-04-26T23:26:24Z" finished-at="2018-04-26T23:26:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestUserSelection -->
-        <test-method status="SKIP" signature="ValidateLogo()[pri:2, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="ValidateLogo" duration-ms="1" started-at="2018-04-23T13:18:41Z" finished-at="2018-04-23T13:18:41Z">
+        </test-method> <!-- TestUserSelectionForAE -->
+        <test-method status="PASS" signature="ValidateLogoForAE()[pri:2, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="ValidateLogoForAE" duration-ms="78" started-at="2018-04-26T23:26:34Z" finished-at="2018-04-26T23:26:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateLogo -->
-        <test-method status="SKIP" signature="ValidateMessageDisplayed()[pri:3, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="ValidateMessageDisplayed" duration-ms="1" started-at="2018-04-23T13:18:41Z" finished-at="2018-04-23T13:18:41Z">
+        </test-method> <!-- ValidateLogoForAE -->
+        <test-method status="PASS" signature="ValidateMessageDisplayedForAE()[pri:3, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="ValidateMessageDisplayedForAE" duration-ms="0" started-at="2018-04-26T23:26:34Z" finished-at="2018-04-26T23:26:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateMessageDisplayed -->
-        <test-method status="SKIP" signature="ValidateMenuDisplayedForAEManager()[pri:4, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="ValidateMenuDisplayedForAEManager" duration-ms="1" started-at="2018-04-23T13:18:41Z" finished-at="2018-04-23T13:18:41Z">
+        </test-method> <!-- ValidateMessageDisplayedForAE -->
+        <test-method status="PASS" signature="ValidateMenuDisplayedForAEManager()[pri:4, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="ValidateMenuDisplayedForAEManager" duration-ms="265" started-at="2018-04-26T23:26:34Z" finished-at="2018-04-26T23:26:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMenuDisplayedForAEManager -->
-        <test-method status="SKIP" signature="AE_ManagerInsertFunction()[pri:5, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="AE_ManagerInsertFunction" duration-ms="1" started-at="2018-04-23T13:18:41Z" finished-at="2018-04-23T13:18:41Z">
+        <test-method status="PASS" signature="AE_ManagerInsertFunctionForAE()[pri:5, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="AE_ManagerInsertFunctionForAE" duration-ms="17706" started-at="2018-04-26T23:26:34Z" finished-at="2018-04-26T23:26:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AE_ManagerInsertFunction -->
-        <test-method status="SKIP" signature="ModifyFuctionality()[pri:6, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="ModifyFuctionality" duration-ms="1" started-at="2018-04-23T13:18:41Z" finished-at="2018-04-23T13:18:41Z">
+        </test-method> <!-- AE_ManagerInsertFunctionForAE -->
+        <test-method status="PASS" signature="ModifyFuctionalityForAE()[pri:6, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="ModifyFuctionalityForAE" duration-ms="16911" started-at="2018-04-26T23:26:52Z" finished-at="2018-04-26T23:27:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ModifyFuctionality -->
-        <test-method status="SKIP" signature="CopyFunctionality()[pri:7, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="CopyFunctionality" duration-ms="1" started-at="2018-04-23T13:18:41Z" finished-at="2018-04-23T13:18:41Z">
+        </test-method> <!-- ModifyFuctionalityForAE -->
+        <test-method status="PASS" signature="CopyFunctionalityForAE()[pri:7, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="CopyFunctionalityForAE" duration-ms="13182" started-at="2018-04-26T23:27:09Z" finished-at="2018-04-26T23:27:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CopyFunctionality -->
-        <test-method status="SKIP" signature="NewButtonFunctionality()[pri:8, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="NewButtonFunctionality" duration-ms="1" started-at="2018-04-23T13:18:41Z" finished-at="2018-04-23T13:18:41Z">
+        </test-method> <!-- CopyFunctionalityForAE -->
+        <test-method status="PASS" signature="NewButtonFunctionalityForAE()[pri:8, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="NewButtonFunctionalityForAE" duration-ms="22292" started-at="2018-04-26T23:27:22Z" finished-at="2018-04-26T23:27:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NewButtonFunctionality -->
-        <test-method status="SKIP" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestAeUser@26aa12dd]" name="aftertest" is-config="true" duration-ms="0" started-at="2018-04-23T13:18:41Z" finished-at="2018-04-23T13:18:41Z">
+        </test-method> <!-- NewButtonFunctionalityForAE -->
+        <test-method status="PASS" signature="OutBoundMartrixForAE()[pri:9, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="OutBoundMartrixForAE" duration-ms="21528" started-at="2018-04-26T23:27:44Z" finished-at="2018-04-26T23:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OutBoundMartrixForAE -->
+        <test-method status="PASS" signature="UpdateAccount()[pri:10, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="UpdateAccount" duration-ms="32947" started-at="2018-04-26T23:28:06Z" finished-at="2018-04-26T23:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAccount -->
+        <test-method status="PASS" signature="LoggedAsInfo()[pri:11, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="LoggedAsInfo" duration-ms="47" started-at="2018-04-26T23:28:39Z" finished-at="2018-04-26T23:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedAsInfo -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestAeUser@6108b2d7]" name="aftertest" is-config="true" duration-ms="16" started-at="2018-04-26T23:28:39Z" finished-at="2018-04-26T23:28:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
       </class> <!-- com.pwot.qa.iteration1.TestAeUser -->
+      <class name="com.pwot.qa.iteration1.TestOtherUser">
+        <test-method status="PASS" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="LoginToPwot" is-config="true" duration-ms="20406" started-at="2018-04-26T23:46:22Z" finished-at="2018-04-26T23:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToPwot -->
+        <test-method status="PASS" signature="TestUserSelectionForOthr()[pri:1, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="TestUserSelectionForOthr" duration-ms="6177" started-at="2018-04-26T23:46:42Z" finished-at="2018-04-26T23:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserSelectionForOthr -->
+        <test-method status="PASS" signature="ValidateLogoForOthr()[pri:2, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="ValidateLogoForOthr" duration-ms="16" started-at="2018-04-26T23:46:48Z" finished-at="2018-04-26T23:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogoForOthr -->
+        <test-method status="PASS" signature="ValidateMessageDisplayedForOthr()[pri:3, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="ValidateMessageDisplayedForOthr" duration-ms="483" started-at="2018-04-26T23:46:48Z" finished-at="2018-04-26T23:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMessageDisplayedForOthr -->
+        <test-method status="PASS" signature="ValidateMenuDisplayedForAEManagerForOthr()[pri:4, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="ValidateMenuDisplayedForAEManagerForOthr" duration-ms="250" started-at="2018-04-26T23:46:49Z" finished-at="2018-04-26T23:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMenuDisplayedForAEManagerForOthr -->
+        <test-method status="PASS" signature="AE_ManagerInsertFunctionForOthr()[pri:5, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="AE_ManagerInsertFunctionForOthr" duration-ms="17425" started-at="2018-04-26T23:46:49Z" finished-at="2018-04-26T23:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AE_ManagerInsertFunctionForOthr -->
+        <test-method status="PASS" signature="ModifyFuctionalityForOthr()[pri:6, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="ModifyFuctionalityForOthr" duration-ms="19329" started-at="2018-04-26T23:47:06Z" finished-at="2018-04-26T23:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyFuctionalityForOthr -->
+        <test-method status="PASS" signature="CopyFunctionalityForOthr()[pri:7, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="CopyFunctionalityForOthr" duration-ms="14149" started-at="2018-04-26T23:47:26Z" finished-at="2018-04-26T23:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyFunctionalityForOthr -->
+        <test-method status="PASS" signature="NewButtonFunctionalityForOthr()[pri:8, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="NewButtonFunctionalityForOthr" duration-ms="24851" started-at="2018-04-26T23:47:40Z" finished-at="2018-04-26T23:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewButtonFunctionalityForOthr -->
+        <test-method status="PASS" signature="OutBoundMartrixForOthr()[pri:9, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="OutBoundMartrixForOthr" duration-ms="10935" started-at="2018-04-26T23:48:05Z" finished-at="2018-04-26T23:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OutBoundMartrixForOthr -->
+        <test-method status="PASS" signature="UpdateAccount()[pri:10, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="UpdateAccount" duration-ms="28860" started-at="2018-04-26T23:48:16Z" finished-at="2018-04-26T23:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAccount -->
+        <test-method status="PASS" signature="LoggedAsInfo()[pri:11, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="LoggedAsInfo" duration-ms="47" started-at="2018-04-26T23:48:45Z" finished-at="2018-04-26T23:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedAsInfo -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestOtherUser@6aaa5eb0]" name="aftertest" is-config="true" duration-ms="0" started-at="2018-04-26T23:48:45Z" finished-at="2018-04-26T23:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.pwot.qa.iteration1.TestOtherUser -->
+      <class name="com.pwot.qa.iteration1.TestOfcUser">
+        <test-method status="PASS" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="LoginToPwot" is-config="true" duration-ms="20125" started-at="2018-04-26T23:40:53Z" finished-at="2018-04-26T23:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToPwot -->
+        <test-method status="PASS" signature="TestUserSelectionForOfc()[pri:1, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="TestUserSelectionForOfc" duration-ms="6224" started-at="2018-04-26T23:41:13Z" finished-at="2018-04-26T23:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserSelectionForOfc -->
+        <test-method status="PASS" signature="ValidateLogoForOfc()[pri:2, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="ValidateLogoForOfc" duration-ms="47" started-at="2018-04-26T23:41:19Z" finished-at="2018-04-26T23:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogoForOfc -->
+        <test-method status="PASS" signature="ValidateMessageDisplayedForOfc()[pri:3, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="ValidateMessageDisplayedForOfc" duration-ms="2434" started-at="2018-04-26T23:41:19Z" finished-at="2018-04-26T23:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMessageDisplayedForOfc -->
+        <test-method status="PASS" signature="ValidateMenuDisplayedForAEManagerForOfc()[pri:4, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="ValidateMenuDisplayedForAEManagerForOfc" duration-ms="437" started-at="2018-04-26T23:41:22Z" finished-at="2018-04-26T23:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMenuDisplayedForAEManagerForOfc -->
+        <test-method status="PASS" signature="OFC__ManagerInsertFunctionForOfc()[pri:5, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="OFC__ManagerInsertFunctionForOfc" duration-ms="14601" started-at="2018-04-26T23:41:22Z" finished-at="2018-04-26T23:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OFC__ManagerInsertFunctionForOfc -->
+        <test-method status="PASS" signature="ModifyFuctionalityForOfc()[pri:6, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="ModifyFuctionalityForOfc" duration-ms="21154" started-at="2018-04-26T23:41:37Z" finished-at="2018-04-26T23:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyFuctionalityForOfc -->
+        <test-method status="PASS" signature="CopyFunctionalityForOfc()[pri:7, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="CopyFunctionalityForOfc" duration-ms="14072" started-at="2018-04-26T23:41:58Z" finished-at="2018-04-26T23:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyFunctionalityForOfc -->
+        <test-method status="PASS" signature="NewButtonFunctionalityForOfc()[pri:8, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="NewButtonFunctionalityForOfc" duration-ms="22698" started-at="2018-04-26T23:42:12Z" finished-at="2018-04-26T23:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewButtonFunctionalityForOfc -->
+        <test-method status="PASS" signature="OutBoundMartrixForOfc()[pri:9, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="OutBoundMartrixForOfc" duration-ms="20389" started-at="2018-04-26T23:42:35Z" finished-at="2018-04-26T23:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OutBoundMartrixForOfc -->
+        <test-method status="PASS" signature="UpdateAccount()[pri:10, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="UpdateAccount" duration-ms="64459" started-at="2018-04-26T23:42:55Z" finished-at="2018-04-26T23:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAccount -->
+        <test-method status="PASS" signature="LoggedAsInfo()[pri:11, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="LoggedAsInfo" duration-ms="78" started-at="2018-04-26T23:44:00Z" finished-at="2018-04-26T23:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedAsInfo -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestOfcUser@22f71333]" name="aftertest" is-config="true" duration-ms="16" started-at="2018-04-26T23:44:00Z" finished-at="2018-04-26T23:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.pwot.qa.iteration1.TestOfcUser -->
+      <class name="com.pwot.qa.iteration1.TestCustomerUser">
+        <test-method status="PASS" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="LoginToPwot" is-config="true" duration-ms="25039" started-at="2018-04-26T23:44:00Z" finished-at="2018-04-26T23:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToPwot -->
+        <test-method status="PASS" signature="TestUserSelectionForCu()[pri:1, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="TestUserSelectionForCu" duration-ms="6755" started-at="2018-04-26T23:44:25Z" finished-at="2018-04-26T23:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserSelectionForCu -->
+        <test-method status="PASS" signature="ValidateLogoForCu()[pri:2, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="ValidateLogoForCu" duration-ms="62" started-at="2018-04-26T23:44:31Z" finished-at="2018-04-26T23:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogoForCu -->
+        <test-method status="PASS" signature="ValidateMessageDisplayedForCu()[pri:3, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="ValidateMessageDisplayedForCu" duration-ms="484" started-at="2018-04-26T23:44:32Z" finished-at="2018-04-26T23:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMessageDisplayedForCu -->
+        <test-method status="PASS" signature="ValidateMenuDisplayedForCuManager()[pri:4, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="ValidateMenuDisplayedForCuManager" duration-ms="78" started-at="2018-04-26T23:44:32Z" finished-at="2018-04-26T23:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMenuDisplayedForCuManager -->
+        <test-method status="PASS" signature="Customer_ManagerInsertFunctionalityForCu()[pri:5, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="Customer_ManagerInsertFunctionalityForCu" duration-ms="14679" started-at="2018-04-26T23:44:32Z" finished-at="2018-04-26T23:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_ManagerInsertFunctionalityForCu -->
+        <test-method status="PASS" signature="ModifyFuctionalityForCu()[pri:6, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="ModifyFuctionalityForCu" duration-ms="26333" started-at="2018-04-26T23:44:47Z" finished-at="2018-04-26T23:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyFuctionalityForCu -->
+        <test-method status="PASS" signature="CopyFunctionalityForCu()[pri:7, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="CopyFunctionalityForCu" duration-ms="16193" started-at="2018-04-26T23:45:13Z" finished-at="2018-04-26T23:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyFunctionalityForCu -->
+        <test-method status="PASS" signature="NewButtonFunctionalityForCu()[pri:8, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="NewButtonFunctionalityForCu" duration-ms="25320" started-at="2018-04-26T23:45:29Z" finished-at="2018-04-26T23:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewButtonFunctionalityForCu -->
+        <test-method status="PASS" signature="UpdateAccount()[pri:9, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="UpdateAccount" duration-ms="26988" started-at="2018-04-26T23:45:55Z" finished-at="2018-04-26T23:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAccount -->
+        <test-method status="PASS" signature="LoggedAsInfo()[pri:10, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="LoggedAsInfo" duration-ms="47" started-at="2018-04-26T23:46:22Z" finished-at="2018-04-26T23:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedAsInfo -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestCustomerUser@13969fbe]" name="aftertest" is-config="true" duration-ms="0" started-at="2018-04-26T23:46:22Z" finished-at="2018-04-26T23:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.pwot.qa.iteration1.TestCustomerUser -->
+      <class name="com.pwot.qa.iteration1.TestProvisioningUser">
+        <test-method status="PASS" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="LoginToPwot" is-config="true" duration-ms="20843" started-at="2018-04-26T23:34:31Z" finished-at="2018-04-26T23:34:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToPwot -->
+        <test-method status="PASS" signature="TestUserSelectionForPro()[pri:1, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="TestUserSelectionForPro" duration-ms="5710" started-at="2018-04-26T23:34:52Z" finished-at="2018-04-26T23:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserSelectionForPro -->
+        <test-method status="PASS" signature="ValidateLogoForPro()[pri:2, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="ValidateLogoForPro" duration-ms="15" started-at="2018-04-26T23:34:58Z" finished-at="2018-04-26T23:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogoForPro -->
+        <test-method status="PASS" signature="ValidateMessageDisplayedForPro()[pri:3, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="ValidateMessageDisplayedForPro" duration-ms="484" started-at="2018-04-26T23:34:58Z" finished-at="2018-04-26T23:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMessageDisplayedForPro -->
+        <test-method status="PASS" signature="ValidateMenuDisplayedForAEManagerForPro()[pri:4, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="ValidateMenuDisplayedForAEManagerForPro" duration-ms="328" started-at="2018-04-26T23:34:58Z" finished-at="2018-04-26T23:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMenuDisplayedForAEManagerForPro -->
+        <test-method status="PASS" signature="TC__ManagerInsertFunctionForPro()[pri:5, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="TC__ManagerInsertFunctionForPro" duration-ms="13837" started-at="2018-04-26T23:34:59Z" finished-at="2018-04-26T23:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC__ManagerInsertFunctionForPro -->
+        <test-method status="PASS" signature="ModifyFuctionalityForPro()[pri:6, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="ModifyFuctionalityForPro" duration-ms="27035" started-at="2018-04-26T23:35:13Z" finished-at="2018-04-26T23:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyFuctionalityForPro -->
+        <test-method status="PASS" signature="CopyFunctionalityForPro()[pri:7, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="CopyFunctionalityForPro" duration-ms="26863" started-at="2018-04-26T23:35:40Z" finished-at="2018-04-26T23:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyFunctionalityForPro -->
+        <test-method status="PASS" signature="NewButtonFunctionalityForPro()[pri:8, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="NewButtonFunctionalityForPro" duration-ms="46550" started-at="2018-04-26T23:36:07Z" finished-at="2018-04-26T23:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewButtonFunctionalityForPro -->
+        <test-method status="PASS" signature="OutBoundMartrixForPro()[pri:9, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="OutBoundMartrixForPro" duration-ms="66987" started-at="2018-04-26T23:36:53Z" finished-at="2018-04-26T23:38:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OutBoundMartrixForPro -->
+        <test-method status="PASS" signature="UpdateAccount()[pri:10, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="UpdateAccount" duration-ms="172536" started-at="2018-04-26T23:38:00Z" finished-at="2018-04-26T23:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAccount -->
+        <test-method status="PASS" signature="LoggedAsInfo()[pri:11, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="LoggedAsInfo" duration-ms="219" started-at="2018-04-26T23:40:53Z" finished-at="2018-04-26T23:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedAsInfo -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestProvisioningUser@6cd8737]" name="aftertest" is-config="true" duration-ms="62" started-at="2018-04-26T23:40:53Z" finished-at="2018-04-26T23:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.pwot.qa.iteration1.TestProvisioningUser -->
       <class name="com.pwot.qa.iteration1.TestTcUser">
-        <test-method status="FAIL" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="LoginToPwot" is-config="true" duration-ms="0" started-at="2018-04-23T13:18:41Z" finished-at="2018-04-23T13:18:41Z">
+        <test-method status="PASS" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="LoginToPwot" is-config="true" duration-ms="22917" started-at="2018-04-26T23:28:39Z" finished-at="2018-04-26T23:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToPwot -->
+        <test-method status="PASS" signature="TestUserSelectionForTc()[pri:1, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="TestUserSelectionForTc" duration-ms="5538" started-at="2018-04-26T23:29:02Z" finished-at="2018-04-26T23:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserSelectionForTc -->
+        <test-method status="PASS" signature="ValidateLogoForTc()[pri:2, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="ValidateLogoForTc" duration-ms="32" started-at="2018-04-26T23:29:07Z" finished-at="2018-04-26T23:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogoForTc -->
+        <test-method status="PASS" signature="ValidateMessageDisplayedForTc()[pri:3, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="ValidateMessageDisplayedForTc" duration-ms="3135" started-at="2018-04-26T23:29:07Z" finished-at="2018-04-26T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMessageDisplayedForTc -->
+        <test-method status="PASS" signature="ValidateMenuDisplayedForTcManager()[pri:4, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="ValidateMenuDisplayedForTcManager" duration-ms="250" started-at="2018-04-26T23:29:11Z" finished-at="2018-04-26T23:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMenuDisplayedForTcManager -->
+        <test-method status="PASS" signature="TC__ManagerInsertFunctionForTc()[pri:5, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="TC__ManagerInsertFunctionForTc" duration-ms="22885" started-at="2018-04-26T23:29:11Z" finished-at="2018-04-26T23:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC__ManagerInsertFunctionForTc -->
+        <test-method status="PASS" signature="ModifyFuctionalityForTc()[pri:6, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="ModifyFuctionalityForTc" duration-ms="43992" started-at="2018-04-26T23:29:34Z" finished-at="2018-04-26T23:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyFuctionalityForTc -->
+        <test-method status="PASS" signature="CopyFunctionalityForTc()[pri:7, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="CopyFunctionalityForTc" duration-ms="16708" started-at="2018-04-26T23:30:18Z" finished-at="2018-04-26T23:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyFunctionalityForTc -->
+        <test-method status="PASS" signature="NewButtonFunctionalityForTc()[pri:8, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="NewButtonFunctionalityForTc" duration-ms="18673" started-at="2018-04-26T23:30:34Z" finished-at="2018-04-26T23:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewButtonFunctionalityForTc -->
+        <test-method status="PASS" signature="OutBoundMartrixForTc()[pri:9, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="OutBoundMartrixForTc" duration-ms="13525" started-at="2018-04-26T23:30:53Z" finished-at="2018-04-26T23:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OutBoundMartrixForTc -->
+        <test-method status="PASS" signature="UpdateAccount()[pri:10, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="UpdateAccount" duration-ms="27877" started-at="2018-04-26T23:31:07Z" finished-at="2018-04-26T23:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAccount -->
+        <test-method status="PASS" signature="LoggedAsInfo()[pri:11, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="LoggedAsInfo" duration-ms="78" started-at="2018-04-26T23:31:35Z" finished-at="2018-04-26T23:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedAsInfo -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestTcUser@1554909b]" name="aftertest" is-config="true" duration-ms="16" started-at="2018-04-26T23:31:35Z" finished-at="2018-04-26T23:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.pwot.qa.iteration1.TestTcUser -->
+      <class name="com.pwot.qa.iteration1.TestSdmUser">
+        <test-method status="PASS" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="LoginToPwot" is-config="true" duration-ms="25055" started-at="2018-04-26T23:31:35Z" finished-at="2018-04-26T23:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToPwot -->
+        <test-method status="PASS" signature="TestUserSelectionForSdm()[pri:1, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="TestUserSelectionForSdm" duration-ms="5382" started-at="2018-04-26T23:32:00Z" finished-at="2018-04-26T23:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserSelectionForSdm -->
+        <test-method status="PASS" signature="ValidateLogoForSdm()[pri:2, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="ValidateLogoForSdm" duration-ms="31" started-at="2018-04-26T23:32:05Z" finished-at="2018-04-26T23:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogoForSdm -->
+        <test-method status="PASS" signature="ValidateMessageDisplayedForSdm()[pri:3, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="ValidateMessageDisplayedForSdm" duration-ms="483" started-at="2018-04-26T23:32:05Z" finished-at="2018-04-26T23:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMessageDisplayedForSdm -->
+        <test-method status="PASS" signature="ValidateMenuDisplayedForSdmManager()[pri:4, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="ValidateMenuDisplayedForSdmManager" duration-ms="266" started-at="2018-04-26T23:32:06Z" finished-at="2018-04-26T23:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMenuDisplayedForSdmManager -->
+        <test-method status="PASS" signature="TC__ManagerInsertFunctionForSdm()[pri:5, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="TC__ManagerInsertFunctionForSdm" duration-ms="18408" started-at="2018-04-26T23:32:06Z" finished-at="2018-04-26T23:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC__ManagerInsertFunctionForSdm -->
+        <test-method status="PASS" signature="ModifyFuctionalityForSdm()[pri:6, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="ModifyFuctionalityForSdm" duration-ms="31130" started-at="2018-04-26T23:32:24Z" finished-at="2018-04-26T23:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyFuctionalityForSdm -->
+        <test-method status="PASS" signature="CopyFunctionalityForSdm()[pri:7, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="CopyFunctionalityForSdm" duration-ms="17659" started-at="2018-04-26T23:32:55Z" finished-at="2018-04-26T23:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyFunctionalityForSdm -->
+        <test-method status="PASS" signature="NewButtonFunctionalityForSdm()[pri:8, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="NewButtonFunctionalityForSdm" duration-ms="29469" started-at="2018-04-26T23:33:13Z" finished-at="2018-04-26T23:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewButtonFunctionalityForSdm -->
+        <test-method status="PASS" signature="OutBoundMartrixForSdm()[pri:9, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="OutBoundMartrixForSdm" duration-ms="16036" started-at="2018-04-26T23:33:42Z" finished-at="2018-04-26T23:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OutBoundMartrixForSdm -->
+        <test-method status="PASS" signature="UpdateAccount()[pri:10, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="UpdateAccount" duration-ms="32807" started-at="2018-04-26T23:33:59Z" finished-at="2018-04-26T23:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAccount -->
+        <test-method status="PASS" signature="LoggedAsInfo()[pri:11, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="LoggedAsInfo" duration-ms="94" started-at="2018-04-26T23:34:31Z" finished-at="2018-04-26T23:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedAsInfo -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestSdmUser@6bf256fa]" name="aftertest" is-config="true" duration-ms="15" started-at="2018-04-26T23:34:31Z" finished-at="2018-04-26T23:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.pwot.qa.iteration1.TestSdmUser -->
+      <class name="com.pwot.qa.iteration1.TestAdminUser">
+        <test-method status="FAIL" signature="LoginToPwot()[pri:0, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="LoginToPwot" is-config="true" duration-ms="0" started-at="2018-04-26T23:24:41Z" finished-at="2018-04-26T23:24:41Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: {"method":"link text","selector":"ALS Prime Product"}
-Command duration or timeout: 63 milliseconds
+              <![CDATA[Unable to locate element: {"method":"name","selector":"userid"}
+Command duration or timeout: 31 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'arifasha', ip: '9.126.50.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+System info: host: 'arifasha', ip: '135.210.61.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 210eb848-13af-4d64-bb56-f4088dbd569a
-*** Element info: {Using=link text, value=ALS Prime Product}]]>
+Session ID: 5628b97c-c0bf-4b33-9e1e-29ebb7889098
+*** Element info: {Using=name, value=userid}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"ALS Prime Product"}
-Command duration or timeout: 63 milliseconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"userid"}
+Command duration or timeout: 31 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'arifasha', ip: '9.126.50.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+System info: host: 'arifasha', ip: '135.210.61.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 210eb848-13af-4d64-bb56-f4088dbd569a
-*** Element info: {Using=link text, value=ALS Prime Product}
+Session ID: 5628b97c-c0bf-4b33-9e1e-29ebb7889098
+*** Element info: {Using=name, value=userid}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -152,11 +412,11 @@ Session ID: 210eb848-13af-4d64-bb56-f4088dbd569a
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.pwot.qa.iteration1.CommonMethods.Login(CommonMethods.java:58)
-	at com.pwot.qa.iteration1.TestTcUser.LoginToPwot(TestTcUser.java:30)
+	at com.pwot.qa.iteration1.CommonMethods.Login(CommonMethods.java:61)
+	at com.pwot.qa.iteration1.TestAdminUser.LoginToPwot(TestAdminUser.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -178,62 +438,73 @@ Session ID: 210eb848-13af-4d64-bb56-f4088dbd569a
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
 	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"ALS Prime Product"}
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"userid"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'arifasha', ip: '9.126.50.132', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+System info: host: 'arifasha', ip: '135.210.61.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous6145135780765077236webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous6145135780765077236webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous6145135780765077236webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous6145135780765077236webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous6145135780765077236webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/windows/TEMP/anonymous5638274866986207683webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/windows/TEMP/anonymous5638274866986207683webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/windows/TEMP/anonymous5638274866986207683webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/windows/TEMP/anonymous5638274866986207683webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/windows/TEMP/anonymous5638274866986207683webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToPwot -->
-        <test-method status="SKIP" signature="TestUserSelection()[pri:1, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="TestUserSelection" duration-ms="2" started-at="2018-04-23T13:18:45Z" finished-at="2018-04-23T13:18:45Z">
+        <test-method status="SKIP" signature="CopyFunctionalityForAE()[pri:7, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="CopyFunctionalityForAE" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestUserSelection -->
-        <test-method status="SKIP" signature="ValidateLogo()[pri:2, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="ValidateLogo" duration-ms="2" started-at="2018-04-23T13:18:45Z" finished-at="2018-04-23T13:18:45Z">
+        </test-method> <!-- CopyFunctionalityForAE -->
+        <test-method status="SKIP" signature="UpdateAccount()[pri:10, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="UpdateAccount" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateLogo -->
-        <test-method status="SKIP" signature="ValidateMessageDisplayed()[pri:3, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="ValidateMessageDisplayed" duration-ms="3" started-at="2018-04-23T13:18:45Z" finished-at="2018-04-23T13:18:45Z">
+        </test-method> <!-- UpdateAccount -->
+        <test-method status="SKIP" signature="AE_ManagerInsertFunctionForAE()[pri:5, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="AE_ManagerInsertFunctionForAE" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateMessageDisplayed -->
-        <test-method status="SKIP" signature="ValidateMenuDisplayedForAEManager()[pri:4, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="ValidateMenuDisplayedForAEManager" duration-ms="2" started-at="2018-04-23T13:18:45Z" finished-at="2018-04-23T13:18:45Z">
+        </test-method> <!-- AE_ManagerInsertFunctionForAE -->
+        <test-method status="SKIP" signature="NewButtonFunctionalityForAE()[pri:8, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="NewButtonFunctionalityForAE" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateMenuDisplayedForAEManager -->
-        <test-method status="SKIP" signature="TC__ManagerInsertFunction()[pri:5, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="TC__ManagerInsertFunction" duration-ms="3" started-at="2018-04-23T13:18:45Z" finished-at="2018-04-23T13:18:45Z">
+        </test-method> <!-- NewButtonFunctionalityForAE -->
+        <test-method status="SKIP" signature="OutBoundMartrixForAE()[pri:9, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="OutBoundMartrixForAE" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC__ManagerInsertFunction -->
-        <test-method status="SKIP" signature="ModifyFuctionality()[pri:6, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="ModifyFuctionality" duration-ms="2" started-at="2018-04-23T13:18:45Z" finished-at="2018-04-23T13:18:45Z">
+        </test-method> <!-- OutBoundMartrixForAE -->
+        <test-method status="SKIP" signature="ValidateMessageDisplayedForAE()[pri:3, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="ValidateMessageDisplayedForAE" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ModifyFuctionality -->
-        <test-method status="SKIP" signature="CopyFunctionality()[pri:7, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="CopyFunctionality" duration-ms="2" started-at="2018-04-23T13:18:45Z" finished-at="2018-04-23T13:18:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CopyFunctionality -->
-        <test-method status="SKIP" signature="NewButtonFunctionality()[pri:8, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="NewButtonFunctionality" duration-ms="1" started-at="2018-04-23T13:18:45Z" finished-at="2018-04-23T13:18:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NewButtonFunctionality -->
-        <test-method status="SKIP" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestTcUser@3fd7a715]" name="aftertest" is-config="true" duration-ms="0" started-at="2018-04-23T13:18:45Z" finished-at="2018-04-23T13:18:45Z">
+        </test-method> <!-- ValidateMessageDisplayedForAE -->
+        <test-method status="SKIP" signature="aftertest()[pri:0, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="aftertest" is-config="true" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-      </class> <!-- com.pwot.qa.iteration1.TestTcUser -->
+        <test-method status="SKIP" signature="ValidateLogoForAE()[pri:2, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="ValidateLogoForAE" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogoForAE -->
+        <test-method status="SKIP" signature="LoggedAsInfo()[pri:11, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="LoggedAsInfo" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedAsInfo -->
+        <test-method status="SKIP" signature="ValidateMenuDisplayedForAEManager()[pri:4, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="ValidateMenuDisplayedForAEManager" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMenuDisplayedForAEManager -->
+        <test-method status="SKIP" signature="TestUserSelectionForAE()[pri:1, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="TestUserSelectionForAE" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserSelectionForAE -->
+        <test-method status="SKIP" signature="ModifyFuctionalityForAE()[pri:6, instance:com.pwot.qa.iteration1.TestAdminUser@566776ad]" name="ModifyFuctionalityForAE" duration-ms="0" started-at="2018-04-26T23:26:03Z" finished-at="2018-04-26T23:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyFuctionalityForAE -->
+      </class> <!-- com.pwot.qa.iteration1.TestAdminUser -->
     </test> <!-- Test -->
   </suite> <!-- Pwot_RegressionSuite -->
 </testng-results>

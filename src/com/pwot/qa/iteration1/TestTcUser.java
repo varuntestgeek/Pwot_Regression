@@ -32,31 +32,31 @@ public class TestTcUser extends CommonMethods {
   
      @Test(priority = 1 )
      
-     public static void TestUserSelection()
+     public static void TestUserSelectionForTc()
      {
     		CommonMethods.SelectUser("SampleTC");
      }
     
      @Test(priority=2)
-     public static void ValidateLogo()
+     public static void ValidateLogoForTc()
      {
     		CommonMethods.ValidateATTLogo();
      }
      
      @Test(priority = 3)
      
-     public static void ValidateMessageDisplayed()
+     public static void ValidateMessageDisplayedForTc()
      {
     	 CommonMethods.ValidateMessage("SampleTC");
      }
      @Test(priority = 4)
-     public static void ValidateMenuDisplayedForAEManager()
+     public static void ValidateMenuDisplayedForTcManager()
      {
  		CommonMethods.ValidateLinkDisplayed("SampleTC-Manager"); 
      }
      @Test(priority = 5 )
 	
-     public static void TC__ManagerInsertFunction() throws InvalidFormatException, IOException
+     public static void TC__ManagerInsertFunctionForTc() throws InvalidFormatException, IOException
      {
 		CommonMethods.ClickOnManageLink("TC");
 		
@@ -66,28 +66,42 @@ public class TestTcUser extends CommonMethods {
 		
 	}
      @Test(priority = 6)
-     public static void ModifyFuctionality()
+     public static void ModifyFuctionalityForTc() throws InterruptedException
      {
     	 ValidateModifyFunctionality("TC Manager");
      }
 	
 	@Test(priority = 7)
 	
-	public static void CopyFunctionality() throws InvalidFormatException, IOException, InterruptedException
+	public static void CopyFunctionalityForTc() throws InvalidFormatException, IOException, InterruptedException
 	{
 		ValidateCopyFunctionality("TC Manager");
 	}
 
 	@Test(priority= 8)
-	public static void NewButtonFunctionality() throws IOException, InterruptedException
+	public static void NewButtonFunctionalityForTc() throws IOException, InterruptedException
 	{
 		CommonMethods.ValidateNewFunctionality("TC Manager");
 	}
-	
+	@Test(priority =9)
+	public static void OutBoundMartrixForTc()
+	{
+		CommonMethods.ValidateManageOMatrixInsert();
+	}
+	@Test(priority= 10)
+	public static void UpdateAccount() throws InterruptedException
+	{
+		CommonMethods.UpdateLink("Tc");
+	}
+	@Test(priority=11)
+	public static void LoggedAsInfo()
+	{
+		CommonMethods.loggedAs("TC Manager");
+	}
 	@AfterClass
 	public static void aftertest()
 	{
-	CommonMethods.aftcls();
+	CommonMethods.close();
 	}
 }
 

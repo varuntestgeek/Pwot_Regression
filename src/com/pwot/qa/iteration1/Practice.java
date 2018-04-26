@@ -1,8 +1,13 @@
 package com.pwot.qa.iteration1;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
@@ -20,38 +25,31 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.IRetryAnalyzer;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class Practice {
-	
+
 	static WebDriver driver;
 	
 	@Test
-	public static void Test() throws IOException
-	{  
-	driver =new FirefoxDriver();
-	
-	driver.manage().window().maximize();
+	public void test() throws IOException, InterruptedException
+	{
+		CommonMethods.Login();
 		
-    driver.get("http://www.popuptest.com/goodpopups.html");
-    
-    driver.findElement(By.xpath("html/body/table[2]/tbody/tr/td/font/b/a[3]")).click();
-    
-    Set<String> windows = driver.getWindowHandles();
-    
-    Iterator<String> it =windows.iterator();
-    
-    String parent = it.next();
-    
-    String child =it.next();
-    
-    driver.switchTo().window(child);
-    
-    driver.manage().window().maximize();
-    
-    
- 
-   
+		CommonMethods.initialization();
+		
+		CommonMethods.SelectUser("SampleCustomerUser1");
+		
+		CommonMethods.UpdateLink("Cu");
+		
+		CommonMethods.loggedAs("Customer Manager");
+	
+		
+		
 	}
+	
 }

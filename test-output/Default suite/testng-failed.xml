@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.pwot.qa.iteration1.TestOfcUser">
+      <class name="com.pwot.qa.iteration1.Practice">
         <methods>
-          <include name="NewButtonFunctionality"/>
-          <include name="CopyFunctionality"/>
-          <include name="ModifyFuctionality"/>
-          <include name="LoginToPwot"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.pwot.qa.iteration1.TestOfcUser -->
+      </class> <!-- com.pwot.qa.iteration1.Practice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

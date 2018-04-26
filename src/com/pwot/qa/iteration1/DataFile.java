@@ -10,7 +10,7 @@ public class DataFile {
 
 	public static final String username = "as800b";
 	
-	public static final String password = "October@9764";
+	public static final String password = "Feb@9764";
 	
     public static final String AEManagerUN = "AEuser1";
 	
@@ -32,7 +32,13 @@ public class DataFile {
 	
 	public static final String ATTId="as80b";
 	
+	public static final String Title ="Title";
 	
+	public static final String BusinessLine ="BusLine";
+	
+	public static final String DMS= "DMS";
+	
+	public static final String Lucent = "Lucent";
 	
 	
 			
